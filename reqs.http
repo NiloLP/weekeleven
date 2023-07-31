@@ -1,0 +1,13 @@
+@server = https://nilolp-bookish-bassoon-gjp7xr9jggvcvv7r-8080.preview.app.github.dev
+@singers = {{server}}/api/singers
+###
+GET {{singers}}
+###
+POST {{singers}}
+Content-Type: application/json
+
+{
+  "name" : "Chris",
+  "band" : "Coldplay",
+  "song" : "The scientist"
+}
